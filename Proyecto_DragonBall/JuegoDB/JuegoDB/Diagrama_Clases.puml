@@ -1,0 +1,152 @@
+@startuml
+annotation java.lang.Override
+annotation java.lang.SuppressWarnings
+class java.awt.Color
+class java.awt.Graphics
+class java.awt.Image
+class java.util.ArrayList
+class java.util.List
+class javax.swing.Icon
+class javax.swing.ImageIcon
+class javax.swing.JButton
+class javax.swing.JFrame
+class javax.swing.JPanel
+class javax.swing.plaf.basic.BasicProgressBarUI
+class juegodb.CustomProgressBarUI
+class juegodb.DemoScreen
+class juegodb.FrezzerScreen
+class juegodb.FrezzerScreen_1
+class juegodb.GokuScreen
+class juegodb.GokuScreen_1
+class juegodb.Icon
+class juegodb.ImagenIcon
+class juegodb.JuegoDB
+class juegodb.KingColdScreen
+class juegodb.KingColdScreen_1
+class juegodb.Personaje
+class juegodb.PicoroScreen
+class juegodb.PicoroScreen_1
+class juegodb.PlayerScreen
+class juegodb.Screen1
+class juegodb.StartScreen
+class juegodb.VegetaScreen
+class juegodb.VegetaScreen_1
+class juegodb.VeggettoScreen
+class juegodb.VeggettoScreen_1
+juegodb.CustomProgressBarUI ..> java.lang.Override
+juegodb.CustomProgressBarUI --|> javax.swing.plaf.basic.BasicProgressBarUI
+juegodb.DemoScreen ..> java.lang.Override
+juegodb.DemoScreen --|> javax.swing.JFrame
+juegodb.FrezzerScreen ..> java.lang.Override
+juegodb.FrezzerScreen ..> java.lang.SuppressWarnings
+juegodb.FrezzerScreen ..> java.awt.Color
+juegodb.FrezzerScreen ..> java.awt.Graphics
+juegodb.FrezzerScreen ..> java.awt.Image
+juegodb.FrezzerScreen ..> javax.swing.ImageIcon
+juegodb.FrezzerScreen --|> javax.swing.JFrame
+juegodb.FrezzerScreen ..> javax.swing.JPanel
+juegodb.FrezzerScreen_1 ..> java.lang.Override
+juegodb.FrezzerScreen_1 ..> java.lang.SuppressWarnings
+juegodb.FrezzerScreen_1 ..> java.awt.Color
+juegodb.FrezzerScreen_1 ..> java.awt.Graphics
+juegodb.FrezzerScreen_1 ..> java.awt.Image
+juegodb.FrezzerScreen_1 ..> javax.swing.ImageIcon
+juegodb.FrezzerScreen_1 --|> javax.swing.JFrame
+juegodb.FrezzerScreen_1 ..> javax.swing.JPanel
+juegodb.GokuScreen ..> java.lang.Override
+juegodb.GokuScreen ..> java.lang.SuppressWarnings
+juegodb.GokuScreen ..> java.awt.Color
+juegodb.GokuScreen ..> java.awt.Graphics
+juegodb.GokuScreen ..> java.awt.Image
+juegodb.GokuScreen ..> javax.swing.ImageIcon
+juegodb.GokuScreen --|> javax.swing.JFrame
+juegodb.GokuScreen ..> javax.swing.JPanel
+juegodb.GokuScreen_1 ..> java.lang.Override
+juegodb.GokuScreen_1 ..> java.lang.SuppressWarnings
+juegodb.GokuScreen_1 ..> java.awt.Color
+juegodb.GokuScreen_1 ..> java.awt.Graphics
+juegodb.GokuScreen_1 ..> java.awt.Image
+juegodb.GokuScreen_1 ..> javax.swing.ImageIcon
+juegodb.GokuScreen_1 --|> javax.swing.JFrame
+juegodb.GokuScreen_1 ..> javax.swing.JPanel
+juegodb.KingColdScreen ..> java.lang.Override
+juegodb.KingColdScreen ..> java.lang.SuppressWarnings
+juegodb.KingColdScreen ..> java.awt.Color
+juegodb.KingColdScreen ..> java.awt.Graphics
+juegodb.KingColdScreen ..> java.awt.Image
+juegodb.KingColdScreen ..> javax.swing.ImageIcon
+juegodb.KingColdScreen --|> javax.swing.JFrame
+juegodb.KingColdScreen ..> javax.swing.JPanel
+juegodb.KingColdScreen_1 ..> java.lang.Override
+juegodb.KingColdScreen_1 ..> java.lang.SuppressWarnings
+juegodb.KingColdScreen_1 ..> java.awt.Color
+juegodb.KingColdScreen_1 ..> java.awt.Graphics
+juegodb.KingColdScreen_1 ..> java.awt.Image
+juegodb.KingColdScreen_1 ..> javax.swing.ImageIcon
+juegodb.KingColdScreen_1 --|> javax.swing.JFrame
+juegodb.KingColdScreen_1 ..> javax.swing.JPanel
+juegodb.PicoroScreen ..> java.lang.Override
+juegodb.PicoroScreen ..> java.lang.SuppressWarnings
+juegodb.PicoroScreen ..> java.awt.Color
+juegodb.PicoroScreen ..> java.awt.Graphics
+juegodb.PicoroScreen ..> java.awt.Image
+juegodb.PicoroScreen ..> javax.swing.ImageIcon
+juegodb.PicoroScreen --|> javax.swing.JFrame
+juegodb.PicoroScreen ..> javax.swing.JPanel
+juegodb.PicoroScreen_1 ..> java.lang.Override
+juegodb.PicoroScreen_1 ..> java.lang.SuppressWarnings
+juegodb.PicoroScreen_1 ..> java.awt.Color
+juegodb.PicoroScreen_1 ..> java.awt.Graphics
+juegodb.PicoroScreen_1 ..> java.awt.Image
+juegodb.PicoroScreen_1 ..> javax.swing.ImageIcon
+juegodb.PicoroScreen_1 --|> javax.swing.JFrame
+juegodb.PicoroScreen_1 ..> javax.swing.JPanel
+juegodb.PlayerScreen ..> java.lang.Override
+juegodb.PlayerScreen ..> java.util.ArrayList
+juegodb.PlayerScreen ..> java.util.List
+juegodb.PlayerScreen --|> javax.swing.JFrame
+juegodb.Screen1 ..> java.lang.Override
+juegodb.Screen1 ..> java.lang.SuppressWarnings
+juegodb.Screen1 ..> java.awt.Graphics
+juegodb.Screen1 ..> java.awt.Image
+juegodb.Screen1 ..> javax.swing.Icon
+juegodb.Screen1 ..> javax.swing.ImageIcon
+juegodb.Screen1 ..> javax.swing.JButton
+juegodb.Screen1 --|> javax.swing.JFrame
+juegodb.Screen1 ..> javax.swing.JPanel
+juegodb.StartScreen ..> java.lang.Override
+juegodb.StartScreen ..> java.lang.SuppressWarnings
+juegodb.StartScreen --|> javax.swing.JFrame
+juegodb.VegetaScreen ..> java.lang.Override
+juegodb.VegetaScreen ..> java.lang.SuppressWarnings
+juegodb.VegetaScreen ..> java.awt.Color
+juegodb.VegetaScreen ..> java.awt.Graphics
+juegodb.VegetaScreen ..> java.awt.Image
+juegodb.VegetaScreen ..> javax.swing.ImageIcon
+juegodb.VegetaScreen --|> javax.swing.JFrame
+juegodb.VegetaScreen ..> javax.swing.JPanel
+juegodb.VegetaScreen_1 ..> java.lang.Override
+juegodb.VegetaScreen_1 ..> java.lang.SuppressWarnings
+juegodb.VegetaScreen_1 ..> java.awt.Color
+juegodb.VegetaScreen_1 ..> java.awt.Graphics
+juegodb.VegetaScreen_1 ..> java.awt.Image
+juegodb.VegetaScreen_1 ..> javax.swing.ImageIcon
+juegodb.VegetaScreen_1 --|> javax.swing.JFrame
+juegodb.VegetaScreen_1 ..> javax.swing.JPanel
+juegodb.VeggettoScreen ..> java.lang.Override
+juegodb.VeggettoScreen ..> java.lang.SuppressWarnings
+juegodb.VeggettoScreen ..> java.awt.Color
+juegodb.VeggettoScreen ..> java.awt.Graphics
+juegodb.VeggettoScreen ..> java.awt.Image
+juegodb.VeggettoScreen ..> javax.swing.ImageIcon
+juegodb.VeggettoScreen --|> javax.swing.JFrame
+juegodb.VeggettoScreen ..> javax.swing.JPanel
+juegodb.VeggettoScreen_1 ..> java.lang.Override
+juegodb.VeggettoScreen_1 ..> java.lang.SuppressWarnings
+juegodb.VeggettoScreen_1 ..> java.awt.Color
+juegodb.VeggettoScreen_1 ..> java.awt.Graphics
+juegodb.VeggettoScreen_1 ..> java.awt.Image
+juegodb.VeggettoScreen_1 ..> javax.swing.ImageIcon
+juegodb.VeggettoScreen_1 --|> javax.swing.JFrame
+juegodb.VeggettoScreen_1 ..> javax.swing.JPanel
+@enduml
